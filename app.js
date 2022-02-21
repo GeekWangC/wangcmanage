@@ -28,8 +28,9 @@ app.get('/getUser',(req,resp)=>{
 	const pool = mysql.createPool({
 		database:'blog',
 		user:'root',
-		password:'password'
+		password:'geekwangc'
 	})
+	console.log('pool',pool);
 	pool.getConnection((err,conn)=>{
 		if(!err){
 			const sql = 'select * from t_user';
