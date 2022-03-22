@@ -30,3 +30,5 @@ https://blog.csdn.net/muziljx/article/details/81541896
 使用某个数据库 use 数据库名字
 创建数据库 create database blog;
 mysql错误1251 https://blog.csdn.net/OCEAN_C/article/details/89719578
+
+ JavaScript数据结构和算法完全解析[javascript-algorithms]
